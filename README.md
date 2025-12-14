@@ -47,10 +47,7 @@ Explore biomes, buildings, mobs, and materials from each dimension while learnin
 ### 🕳️ End Page
 ![End Wireframe](./images/TheEnd.png)
 
-### 📘 Content Page 1 - Dimensions
-![Dimensions Wireframe](./images/Dimensions.png)
-
-### 💡 Content Page 2 - Fun Facts
+### 💡 Content Page 1 - Fun Facts
 ![Fun Facts Wireframe](./images/FunFacts.png)
 
 ---

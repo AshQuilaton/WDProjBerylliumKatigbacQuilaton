@@ -25,6 +25,7 @@ body {
     margin-right: 10px;
 }
 
+/* NAV LINKS */
 nav a {
     color: white;
     margin-left: 20px;
@@ -32,10 +33,58 @@ nav a {
     font-weight: bold;
 }
 
+/* HOVER EFFECT */
+nav a:hover {
+    color: #c1ff72;
+    text-decoration: underline;
+}
+
+/* DROPDOWN */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown > a {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    border-radius: 4px;
+}
+
+/* SHOW DROPDOWN ON HOVER */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 15px;
+    margin: 0;
+    text-align: left;
+}
+
+/* DROPDOWN HOVER */
+.dropdown-content a:hover {
+    background-color: #333;
+    color: #c1ff72;
+}
+
 /* TITLE */
 .main-title {
-    margin: 40px 0;
+    margin: 100px 0;
     letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 /* DIMENSIONS */
@@ -57,11 +106,12 @@ nav a {
 }
 
 .portal {
-    width: 250px;
+    width: 350px;
 }
 
 .dimension-card h3 {
     margin-top: 15px;
+    font-size: 1.3rem;
 }
 
 /* FUN FACTS */
