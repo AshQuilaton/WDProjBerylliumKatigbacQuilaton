@@ -3,81 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <title>Minecraft: Fun Facts</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color: #111; color: white; font-family: Arial, sans-serif; margin: 0; padding: 0;">
 
 <!-- HEADER -->
-<header class="navbar">
-    <div class="logo">
-        <img src="../assets/creeperlogo.png" alt="Creeper Logo">
-        <h1>MINECRAFT: WORLDS BEYOND</h1>
+<header style="display: flex; justify-content: space-between; align-items: center; background-color: #222; padding: 15px 30px;">
+    <div style="display: flex; align-items: center;">
+        <img src="../assets/creeperlogo.png" alt="Creeper Logo" style="height: 50px;">
+        <h1 style="color: #BFE57F; margin-left: 10px;">MINECRAFT: WORLDS BEYOND</h1>
     </div>
     <nav>
-        <a href="../index.html">HOME</a>
-        <div class="dropdown">
-            <a href="#">DIMENSIONS</a>
-            <div class="dropdown-content">
-                <a href="overworld.html">Overworld</a>
-                <a href="nether.html">Nether</a>
-                <a href="end.html">The End</a>
+        <a href="../index.html" style="color:white; font-weight:bold; text-decoration:none; margin-left:20px;">HOME</a>
+        <div style="display:inline-block; position: relative; margin-left:20px;">
+            <a href="#" style="color:white; font-weight:bold; text-decoration:none;">DIMENSIONS</a>
+            <div style="display:none; position:absolute; background-color:#222; top:100%; left:0; min-width:150px;">
+                <a href="../public/overworld.html" style="color:white; text-decoration:none; display:block; padding:5px 10px;">Overworld</a>
+                <a href="../public/nether.html" style="color:white; text-decoration:none; display:block; padding:5px 10px;">Nether</a>
+                <a href="../public/end.html" style="color:white; text-decoration:none; display:block; padding:5px 10px;">The End</a>
             </div>
         </div>
-        <a href="funfacts.html">FUN FACTS</a>
+        <a href="../public/funfacts.html" style="color:white; font-weight:bold; text-decoration:none; margin-left:20px;">FUN FACTS</a>
     </nav>
 </header>
 
 <!-- PAGE TITLE -->
-<h2 class="main-title">Fun Facts</h2>
+<h2 style="text-align:center; font-size:3rem; font-weight:bold; margin:60px 0;">Fun Facts</h2>
 
 <!-- FUN FACTS SECTION -->
-<section class="fun-facts-section">
+<section style="max-width:1000px; margin:0 auto 100px auto; padding:0 20px; display:flex; flex-direction:column; gap:60px;">
 
     <!-- OVERWORLD -->
-    <div class="fun-facts-card">
-        <div class="fun-facts-text left">
-            <h3>TIPS FOR THE OVERWORLD</h3>
-            <ul>
-                <li>Essential Tips</li>
-                <li>Survival Tips</li>
-                <li>Efficiency Tips</li>
-                <li>Extras</li>
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; background-color:#111; border:2px solid #7CFF5B; border-radius:8px; padding:30px; gap:20px;">
+        <div style="flex:1; text-align:left;">
+            <h3 style="font-size:1.8rem; margin-bottom:15px;">TIPS FOR THE OVERWORLD</h3>
+            <ul style="list-style:disc; padding-left:20px;">
+                <li style="margin-bottom:8px; font-size:1.2rem;">Essential Tips</li>
+                    <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <li style="margin-bottom:8px; font-size:1.2rem;">Survival Tips</li>
+                    <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <li style="margin-bottom:8px; font-size:1.2rem;">Efficiency Tips</li>
+                    <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <li style="margin-bottom:8px; font-size:1.2rem;">Extras</li>
+                <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </ul>
         </div>
-        <div class="fun-facts-img">
-            <img src="assets/overworld-fun.png" alt="Overworld Fun Image">
+        <div style="flex:1; display:flex; justify-content:center; align-items:center;">
+            <img src="assets/overworld-fun.png" alt="Overworld Fun Image" style="max-width:100%; border:2px solid #7CFF5B; border-radius:8px;">
         </div>
     </div>
 
-    <!-- NETHER -->
-    <div class="fun-facts-card reverse">
-        <div class="fun-facts-img">
-            <img src="assets/nether-fun.png" alt="Nether Fun Image">
-        </div>
-        <div class="fun-facts-text right">
-            <h3>TIPS FOR THE NETHER</h3>
-            <ul>
-                <li>Essential Tips</li>
-                <li>Survival Tips</li>
-                <li>Efficiency Tips</li>
-                <li>Extras</li>
-            </ul>
-        </div>
+   <!-- NETHER -->
+<div style="display:flex; justify-content:space-between; align-items:flex-start; background-color:#111; border:2px solid #7CFF5B; border-radius:8px; padding:30px; gap:20px;">
+    <div style="flex:1; display:flex; justify-content:center; align-items:center;">
+        <img src="assets/nether-fun.png" alt="Nether Fun Image" style="max-width:100%; border:2px solid #7CFF5B; border-radius:8px;">
     </div>
+    <div style="flex:1; text-align:left;">
+        <h3 style="font-size:1.8rem; margin-bottom:15px;">TIPS FOR THE NETHER</h3>
+        <ul style="list-style:disc; padding-left:20px;">
+            <li style="margin-bottom:8px; font-size:1.2rem;">Essential Tips</li>
+                <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <li style="margin-bottom:8px; font-size:1.2rem;">Survival Tips</li>
+                <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <li style="margin-bottom:8px; font-size:1.2rem;">Efficiency Tips</li>
+                <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <li style="margin-bottom:8px; font-size:1.2rem;">Extras</li>
+                <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </ul>
+    </div>
+</div>
 
-    <!-- THE END -->
-    <div class="fun-facts-card">
-        <div class="fun-facts-text left">
-            <h3>TIPS FOR THE END</h3>
-            <ul>
-                <li>Essential Tips</li>
-                <li>Survival Tips</li>
-                <li>Efficiency Tips</li>
-                <li>Extras</li>
+    <!-- END -->
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; background-color:#111; border:2px solid #7CFF5B; border-radius:8px; padding:30px; gap:20px;">
+        <div style="flex:1; text-align:left;">
+            <h3 style="font-size:1.8rem; margin-bottom:15px;">TIPS FOR THE END</h3>
+            <ul style="list-style:disc; padding-left:20px;">
+                <li style="margin-bottom:8px; font-size:1.2rem;">Essential Tips</li>
+                    <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <li style="margin-bottom:8px; font-size:1.2rem;">Survival Tips</li>
+                    <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <li style="margin-bottom:8px; font-size:1.2rem;">Efficiency Tips</li>
+                    <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <li style="margin-bottom:8px; font-size:1.2rem;">Extras</li>
+                    <p style="margin:0 0 8px 20px; font-size:1.1rem; color:#AAA;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </ul>
         </div>
-        <div class="fun-facts-img">
-            <img src="assets/end-fun.png" alt="End Fun Image">
+        <div style="flex:1; display:flex; justify-content:center; align-items:center;">
+            <img src="assets/end-fun.png" alt="End Fun Image" style="max-width:100%; border:2px solid #7CFF5B; border-radius:8px;">
         </div>
     </div>
 
