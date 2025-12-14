@@ -120,28 +120,22 @@ nav a:hover {
     gap: 10px; /* space between portal and heading */
 }
 
+/* Make h3 clickable and style like a link */
 .dimension-card h3 {
     margin: 0;
     font-size: 1.2rem;
     text-align: center;
-    height: 2rem; /* consistent height for all */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dimension-card h3 a {
     color: white;
     text-decoration: none;
-    transition: color 0.2s;
+    cursor: pointer;
+    width: 100%; /* ensures same width for all headings */
+    transition: color 0.2s, text-decoration 0.2s;
 }
 
-.dimension-card h3 a:hover {
+.dimension-card h3:hover {
     color: #c1ff72;
     text-decoration: underline;
-    cursor: pointer;
 }
-
 
 /* FUN FACTS */
 .fun-facts {
