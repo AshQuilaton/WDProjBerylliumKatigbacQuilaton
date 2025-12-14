@@ -1,8 +1,10 @@
-document.querySelectorAll('.portal').forEach(img => {
-    img.addEventListener('mouseenter', () => {
-        img.src = img.dataset.hover;
+const portals = document.querySelectorAll(".portal");
+
+portals.forEach(portal => {
+    portal.addEventListener("mouseover", () => {
+        portal.src = portal.dataset.hover;
     });
-    img.addEventListener('mouseleave', () => {
-        img.src = img.dataset.original;
+    portal.addEventListener("mouseout", () => {
+        portal.src = portal.dataset.original;
     });
 });
