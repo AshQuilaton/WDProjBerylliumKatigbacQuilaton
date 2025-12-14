@@ -137,22 +137,41 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* FUN FACTS */
-.fun-facts {
-    margin: 60px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    background-color: #eee;
-    color: black;
-    width: 300px;
-    padding: 10px;
-    border-radius: 8px;
+/* FUN FACTS BUTTON BELOW PORTALS */
+.fun-facts-section {
+    text-align: center;
+    margin: 50px 0 100px 0; /* space above and below */
 }
 
-.fun-facts img {
-    width: 30px;
+.fun-facts-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    background-color: #341c59;
+    color: #7cff5b;
+    font-family: 'Minecraft', monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 130px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.fun-facts-section {
+    text-align: center;
+    margin: 80px 0 100px 0;
+}
+
+.fun-facts-button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.book-icon {
+    width: 50px;
+    height: auto;
 }
 
 /* DIMENSIONS H3 LINKS */
