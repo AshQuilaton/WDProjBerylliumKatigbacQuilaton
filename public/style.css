@@ -1,0 +1,83 @@
+body {
+    background-color: #111;
+    color: #7CFF5B;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #222;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TITLE */
+.main-title {
+    margin: 40px 0;
+    letter-spacing: 2px;
+}
+
+/* DIMENSIONS */
+.dimensions {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.dimension-card {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 40px;
+}
+
+.portal {
+    width: 250px;
+}
+
+.dimension-card h3 {
+    margin-top: 15px;
+}
+
+/* FUN FACTS */
+.fun-facts {
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #eee;
+    color: black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.fun-facts img {
+    width: 30px;
+}
