@@ -113,10 +113,35 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-.dimension-card h3 {
-    margin-top: 15px;
-    font-size: 1.3rem;
+.dimension-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* space between portal and heading */
 }
+
+.dimension-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    height: 2rem; /* consistent height for all */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dimension-card h3 a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.dimension-card h3 a:hover {
+    color: #c1ff72;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 /* FUN FACTS */
 .fun-facts {
